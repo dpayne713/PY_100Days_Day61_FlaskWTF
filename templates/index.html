@@ -1,0 +1,21 @@
+{#{% extends "base.html" %}#}
+{% extends "bootstrap/base.html" %}
+
+{% block title %}Secret room{% endblock %}
+
+{% block content %}
+
+    <div class="container d-flex justify-content-center pt-5">
+        <div class="text-center">
+
+            <h1>Welcome</h1>
+            <p>Are you ready to discover my secret?</p>
+            <a class="btn btn-primary btn-lg" href="{{ url_for('login') }}">Login</a>
+
+        </div>
+    </div>
+
+{% endblock %}
+
+
+
